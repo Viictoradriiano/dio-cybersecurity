@@ -1,0 +1,14 @@
+CORRECAO DO LABORATORIO
+Substitua os tres scripts na pasta ransomware pelos arquivos deste ZIP.
+Nao altera nem recupera arquivos .enc da versao antiga: preserve a chave antiga se ja a utilizou.
+Execute na pasta ransomware:
+python criar_arquivos_teste.py
+python criptografar.py
+python descriptografar.py
+Os novos testes ficam em laboratorio_seguro, ao lado dos scripts.
+Originais, arquivos criptografados e recuperados ficam em pastas separadas.
+A chave existente e reutilizada. Nenhum original e apagado.
+Inclua no .gitignore: laboratorio_seguro/ e *.key
+Requer: pip install cryptography
+Teste automatizado realizado: criacao, criptografia, recuperacao, repeticao dos dois ultimos comandos e comparacao byte a byte dos tres arquivos recuperados.
+Este pacote corrige apenas o laboratorio de criptografia; nao inclui captura de teclado nem envio de logs.

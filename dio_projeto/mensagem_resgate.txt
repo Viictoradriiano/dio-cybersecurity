@@ -1,0 +1,9 @@
+ATENÇÃO: ESTE É UM EXEMPLO EDUCACIONAL.
+
+Seus arquivos de teste foram criptografados por um script de estudo.
+
+Este projeto não é um ransomware real e não deve ser usado contra terceiros.
+
+Para recuperar os arquivos neste ambiente controlado, execute:
+
+python descriptografar.py
